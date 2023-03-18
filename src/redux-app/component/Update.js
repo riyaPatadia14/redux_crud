@@ -58,7 +58,6 @@ const Update = (props) => {
         <Button onClick={handleClose}>Cancel</Button>
         <Button onClick={handleUpdate}>Submit</Button>
       </DialogActions>
-      {/* </Dialog> */}
     </div>
   );
 };

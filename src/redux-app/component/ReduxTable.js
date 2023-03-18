@@ -26,11 +26,11 @@ const ReduxTable = () => {
   const handleEdit = (defaultData) => {
     setEditOpen(true);
     dispatch(onEdit(defaultData));
+    console.log("default", defaultData);
   };
   const handleClose = () => {
     setEditOpen(false);
   };
-
   return (
     <>
       <Dialog open={editOpen}>
